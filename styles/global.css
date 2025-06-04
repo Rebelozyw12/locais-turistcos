@@ -30,3 +30,28 @@ h2{
     font-size: 3.2ren;
     margin-block: 0.2ren 0.8ren;
 }
+
+h1, h2, h3{
+   coler: var (--text-primary);
+
+
+}
+
+h4{
+    color: var(--text-secondary);
+    font-size: 1.6ren;
+}
+
+p{
+    color: var(--text-secondary);
+}
+
+ul{
+    padding-left: 2.4ren;
+    font-weight: 700;
+
+    li::marker{
+      color: var(--text-secondary)
+
+    }
+}
