@@ -7,4 +7,26 @@ box-sizing: border-box
 
 body {
      font-size: 1.6ren;
+     padding: 8.8ren 8ren;
+     background: var(--background-default);
+}
+
+img {
+    width: 100%;
+}
+
+strong{
+   color: var(--text-headline);
+   text-transform: uppercase;
+}
+
+h1{
+    font-size: 3.6ren;
+    margin-block: 0.8ren 4.4ren;
+}
+
+h2{
+
+    font-size: 3.2ren;
+    margin-block: 0.2ren 0.8ren;
 }
